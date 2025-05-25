@@ -3,5 +3,5 @@
 
 ### Azure Repos
 
-![Azure Repos](images/01.png)
+![Azure Repos](images/01.jpg)
 
