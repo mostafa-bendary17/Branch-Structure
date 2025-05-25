@@ -94,6 +94,30 @@ To maintain consistency and clarity, all commit messages should adhere to the fo
 - **Hotfix Branch**:  
   `SP/NO <commit message>`
 
+## Branch Naming Convention Table
+
+| Branch Type          | Naming Convention                             | Description                                               | Deletion Policy                          |
+|----------------------|-----------------------------------------------|-----------------------------------------------------------|------------------------------------------|
+| **Feature Branch**   | `feature/<feature-name>-US<No>`               | Used for new feature development                          | Deleted after sprint delivery            |
+| **Bugfix Branch**    | `bugfix/<summary>`                            | Used for general bug fixes                                | Deleted after sprint delivery            |
+| **Hotfix Branch**    | `hotfix/<summary>`                            | Used for urgent fixes directly impacting production        | Deleted after issue resolution           |
+| **Development**      | `Dev`                                         | Central branch for ongoing development                    | Persistent                               |
+| **Testing**          | `Test`                                        | Branch used for QA testing after merging from Development | Persistent                               |
+| **Sprint Branch**    | `Sprint/<Sprint Number>`                      | Temporary branch to bundle sprint deliverables            | Deleted after release delivery           |
+| **Pre-Production**   | `Pre-production.V<version>_<YYYY-MM-DD>`      | For staging & pre-release stability testing               | Updated per sprint; old branches removed |
+| **Production**       | `Production.V<version>_<YYYY-MM-DD>`          | Live production code base                                 | Persistent; access restricted            |
+
+## Commit Message Convention Table
+
+| Commit Type | Prefix Format Example                                                                                     | Description                        |
+|-------------|-----------------------------------------------------------------------------------------------------------|------------------------------------|
+| **Feature** | `SP/305 - US/10730 - Add Accordion: Upload field and page section - Message/Feat: Initial implementation` | For new features                   |
+| **Fix**     | `SP/305 - US/10730 - Fix Modal Issue - Message/Fix: Condition for open view`                              | For bug fixes                      |
+| **Hotfix**  | `SP/305 - Hotfix Critical Error - Message/Hotfix: Patch for production crash`                             | For urgent production environment fixes |
+
+> **Note**: Replace `<feature-name>`, `<summary>`, `<Sprint Number>`, `<version>`, `<YYYY-MM-DD>`, `<No>`, and `<commit message>` with actual task-specific values.
+
+
 
 ### Azure Repos
 
