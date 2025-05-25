@@ -1,5 +1,3 @@
-# Branch-Structure
-
 # Branching and Integration Strategy
 
 ### **1. Project Initialization**
