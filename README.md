@@ -119,9 +119,13 @@ To maintain consistency and clarity, all commit messages should adhere to the fo
 
 
 
-### Azure Repos
+### Branching Structure Charts 
 
 ![Azure Repos](images/04.png)
+
+![Azure Repos](images/01.png)
+
+![Azure Repos](images/02.png)
 
 
 
